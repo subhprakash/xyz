@@ -15,5 +15,5 @@ def generate_qr_code(text, filename='qrcode.png'):
     print(f"QR code saved as {filename}")
 
 # Example usage:
-text_to_encode = "Hello, QR Code!"
+text_to_encode = "Hello, I am subh !"
 generate_qr_code(text_to_encode)
