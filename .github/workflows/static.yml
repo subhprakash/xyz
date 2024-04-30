@@ -35,5 +35,5 @@ jobs:
       with:
         python-version: '3.12' # Use the Python version you need
 
-    - name: Run Boring.py 
-      run: python Boring.py
+    - name: Run boring.py 
+      run: python boring.py
