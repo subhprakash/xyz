@@ -1,9 +1,9 @@
-import qrcode
+import qrcodes
 
-def generate_qr_code(text, filename='qrcode.png'):
-    qr = qrcode.QRCode(
+def generate_qr_code(text, filename='qrcodes.png'):
+    qr = qrcodes.QRCode(
         version=1,
-        error_correction=qrcode.constants.ERROR_CORRECT_L,
+        error_correction=qrcodes.constants.ERROR_CORRECT_L,
         box_size=10,
         border=4,
     )
