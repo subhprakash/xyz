@@ -7,7 +7,7 @@ on:
 
 jobs:
   run_python_script:
-    name: Run Testtube.py
+    name: Run faltu.py
     runs-on: ubuntu-latest
 
     steps:
@@ -19,5 +19,5 @@ jobs:
       with:
         python-version: '3.12'
 
-    - name: Run Testtube.py
-      run: python Testtube.py
+    - name: Run faltu.py
+      run: python faltu.py
